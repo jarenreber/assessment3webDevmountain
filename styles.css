@@ -1,0 +1,67 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+#homeStuff {
+	margin: auto;
+	width: 50%;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+	margin: auto;
+	width: 50%;
+	
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+#homeHero {
+	max-width: 300px;
+}
+
+#profileHero {
+	max-width:350px;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+.profileContent {
+	display: flex;
+	line-height: 25px;
+	color: rgb(41, 40, 40);
+}
+
+.yellowButton {
+	background-color: rgb(226, 226, 22);
+	font-size: 1.5rem;
+	margin: .5rem;
+	border-style: outset;
+	border-width: 5px;
+	border-radius: 10px;
+}
